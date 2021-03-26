@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        a {
+            text-decoration: none;
+            transition: 500ms;
+        }
+        
+        a:hover {
+            color: red;
+        }
+        
+        * {
+            margin: 0px;
+        }
+        
+        .width-6 {
+            width: 50%;
+            float: left;
+        }
+        
+        .width-4 {
+            width: 33.3333%;
+            float: left;
+        }
+        
+        .width-3 {
+            width: 25%;
+            float: left;
+        }
+        
+        .head {
+            width: 100%;
+            text-align: center;
+            font-size: 30px;
+            color: orange;
+            float: left;
+        }
+        
+        .div {
+            height: 100vh;
+            width: 100%;
+            margin: auto;
+            color: black;
+            text-align: center;
+        }
+        
+        .bgimage {
+            background-image: url(img/banner-bg.png);
+        }
+        
+        .bgcolor-gray {
+            background-color: gray;
+        }
+        
+        .white-text {
+            color: white;
+        }
+        
+        .h100 {
+            height: 100px;
+        }
+        
+        .heading-size {
+            font-size: 35px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bgimage">
+        <div class="head">
+            <div class="width-3 bgcolor-gray h100">
+                <img src="img/logo.png" alt="logo" style="width: 100px; height: 100px;">
+            </div>
+            <div class="width-3 bgcolor-gray h100"><a href="#div1" class="white-text">Home</a></div>
+            <div class="width-3 bgcolor-gray h100"><a href="#div2" class="white-text">History</a></div>
+            <div class="width-3 bgcolor-gray h100"><a href="#div3" class="white-text">Contact Us</a></div>
+        </div>
+
+        <div id="div1" class="div white-text">
+            <div style="height: 200px;"></div>
+            <p class="heading-size">Lorem ipsum dolor sit.<br> Lorem ipsum dolor sit amet consectetur.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aperiam moles</p>
+            <img src="img/laptop illustration.png" alt="laptop illustration" style="width: 430px; height: auto;">
+            <br>
+            <img src="img/certified.png" alt="certified logo" style="width: 150px; height: auto;">
+            <img src="img/certified.png" alt="certified logo" style="width: 150px; height: auto;">
+            <img src="img/certified.png" alt="certified logo" style="width: 150px; height: auto;">
+            <img src="img/certified.png" alt="certified logo" style="width: 150px; height: auto;">
+            <img src="img/certified.png" alt="certified logo" style="width: 150px; height: auto;">
+
+        </div>
+    </div>
+    <div id="div2" class="div heading-size">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Doloremque soluta unde suscipit!</p>
+    </div>
+    <div id="div3" class="div">
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quibusdam veniam quam nemo praesentium doloribus similique molestias! Nam assumenda maxime alias? Maiores consequuntur cupiditate aspernatur ipsum ea? Rerum dolorum autem repudiandae,
+            ipsam nemo, nihil possimus minima error consequuntur doloribus quae libero, aperiam veritatis a in? Minus explicabo porro eius! Alias dignissimos fugit necessitatibus consequuntur tempore esse laudantium dolorem molestiae optio praesentium
+            modi officiis corrupti aliquid excepturi deleniti temporibus iure sapiente, provident mollitia voluptate error! Blanditiis perspiciatis officia itaque consequuntur! Accusamus magnam animi delectus ad vero rem fuga mollitia nihil officia quam
+            earum asperiores amet doloremque, sapiente consequuntur reiciendis qui enim.</p>
+    </div>
+</body>
+
+</html>
